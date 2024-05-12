@@ -1,0 +1,113 @@
+
+.box{
+    width: 200px;
+    
+    border: 2px solid gray;
+    text-align: center;
+    /* padding: 20px; */
+    /* padding-top:50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px; */
+    padding: 50px;
+   margin: 50px 100px;
+   /* position: fixed; */
+
+}
+
+.title{
+    display: inline;
+}
+
+.description{
+    color: goldenrod ;
+    font-size: 50px;
+    font-weight:bold;
+    /* font-style: italic; */
+    text-align:center;
+    width: 50%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+.box-all{
+    width: 250px;
+    height:250px;
+    margin-top: 10px;
+}
+.box1{
+    border: 2px solid black;
+    position: relative;
+    left: 100px;
+background-color: green;
+  
+}
+.box2{
+    border: 2px solid rgb(237, 8, 8);
+}
+.box3{
+    border: 2px solid rgb(23, 8, 237);
+}
+.red{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid red;
+    background-color: red;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.line-1{
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+}
+.line-2{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(4, 239, 4);
+}
+.line-3{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(35, 4, 239);
+}
+.line-4{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(4, 227, 239);
+}
+.line-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+flex-wrap: wrap;
+    height: 100vh;
+    border: 1px solid goldenrod;
+    align-items: center;
+}
+
+.banner{
+    width: 600px;
+    height:300px;
+    color: white;
+    border: 1px solid red;
+
+    margin: auto;
+    background-image: url('images/bg.avif'),linear-gradient(45deg, red,blue);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+button{
+    width: 300px;
+    padding: 30px;
+    background:linear-gradient(45deg, red,blue)
+}

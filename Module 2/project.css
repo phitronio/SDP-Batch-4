@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgb(213, 213, 213);
+    padding: 10px;
+}
+.logo{
+    width: 80px;
+}
+li{
+    list-style:none;
+    font-size:20px;
+}
+
+li:hover{
+    color:blue;
+    cursor:pointer;
+}
+.menu-container{
+    display: flex;
+    gap: 15px;
+}
+.banner-img{
+    width: 350px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    /* background-image: url('images/background.avif'); */
+    /* color: white; */
+
+}
+.banner-left{
+    width: 400px;
+    line-height: 2;
+}
+.btn{
+    padding:15px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.hire-btn{
+background-color: rgb(47, 30, 64);
+}
+.project-btn{
+    background-color: rgb(19, 104, 201);
+}
+.title{
+    font-size: 45px;
+}
+.service-container{
+    margin-top: 30px;
+}
+.service-title{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align:center;
+}
+.service-card{
+    width: 300px;
+    height:430px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 7px;
+    text-align:center;
+    margin-top: 50px;
+}
+.service-img{
+    width: 250px;
+}
+.service-card-btn{
+    padding: 15px 25px;
+    background-color: rgb(131, 138, 138);
+    border: none;
+    font-size:18px;
+    color: white;
+   
+    /* font-weight: bold; */
+}
+.service-description{
+    margin: 10px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.contact-us{
+    padding: 50px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 4px 4px 8px gray;
+    text-align: center;
+    /* width: 75%;
+    margin: auto; */
+    margin-top: 30px;
+}
+.input-box{
+    padding: 15px;
+    width: 50%;
+    margin-top: 10px;
+
+}
+.message{
+    width: 40%;
+    height:100px;
+    margin-top:15px;
+}
+.submit-btn{
+    width: 25%;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top:20px;
+}
+
+
+@media only screen and (min-width:400px) and (max-width:767px){
+    body{
+        background-color:red;
+    }
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content:center !important;
+}
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-color:blue;
+    }
+    .title{
+        color: white;
+        display: none;
+    }
+}
+
+
+
