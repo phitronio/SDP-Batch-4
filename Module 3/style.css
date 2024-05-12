@@ -1,0 +1,8 @@
+.banner-container{
+    height:60vh;
+    /* background-color: rgb(214, 214, 214); */
+}
+.banner-img{
+    width: 200px;
+    height: 400px;
+}
